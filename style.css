@@ -1,0 +1,39 @@
+.nav .name {
+    color:DarkMagenta;
+    text-decoration: none;
+    
+}
+
+.left {
+  float: left;
+  width: 25%;
+}
+
+.right {
+  float: left;
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  max-width: 130ch;
+}
+
+a {
+  color: DarkMagenta
+}
